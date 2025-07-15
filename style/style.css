@@ -44,6 +44,17 @@ p {
   line-height: 24px;
   color: rgba(14, 14, 14, 0.7);
 }
+
+.primary-btn {
+  border: none;
+  border-radius: 8px;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding: 11px 20px;
+}
+
 /*==============Navbar=========================*/
 .navbar {
   background-color: rgb(245, 245, 245);
@@ -121,4 +132,42 @@ p {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
+}
+
+.vision-cards {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vision-card {
+  padding: 32px;
+  width: 410.67px;
+  border-radius: 16px;
+}
+
+.v-card-one {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.v-card-two {
+  background: rgb(198, 228, 214);
+}
+
+.v-card-three {
+  background: rgb(247, 235, 207);
+}
+
+.v-card-btn-one {
+  background: rgb(84, 144, 245);
+}
+
+.v-card-btn-two {
+  background: rgb(9, 161, 92);
+}
+
+.v-card-btn-three {
+  background: rgb(255, 194, 57);
 }
