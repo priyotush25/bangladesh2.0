@@ -223,7 +223,10 @@ p {
   background: rgb(198, 228, 214);
   border: 1px solid rgb(14, 14, 14);
 }
-
+.opinion-row-header {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+}
 /*==============recent news section=========================*/
 .recent-news {
   margin: 80px auto;
@@ -250,4 +253,43 @@ p {
 }
 .recent-news-card-text-date {
   margin: 12px 0;
+}
+
+/*==============newsletter section=========================*/
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 80px;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.newsletter p {
+  text-align: center;
+  width: 622px;
+}
+.form-group {
+  border-radius: 8px 0px 0px 8px;
+  display: flex;
+  overflow: hidden;
+}
+
+.form-group input[type="email"] {
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.form-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
