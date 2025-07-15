@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: rgb(245, 245, 245);
+}
+
 .sign-in-btn {
   cursor: pointer;
   color: rgb(0, 106, 80);
@@ -134,6 +138,7 @@ p {
   background: rgb(255, 255, 255);
 }
 
+/*==============vision section=========================*/
 .vision-cards {
   margin-top: 32px;
   display: flex;
@@ -172,6 +177,7 @@ p {
   background: rgb(255, 194, 57);
 }
 
+/*==============quote section=========================*/
 .quote-section {
   margin-top: 32px;
   padding: 48px 24px;
@@ -191,4 +197,57 @@ p {
 .quote-chief-title {
   margin-top: 4px;
   color: rgba(14, 14, 14, 0.6);
+}
+
+/*==============opinion section=========================*/
+.opinion-section {
+  padding: 32px;
+  margin-top: 80px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.opinion-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinion-row button {
+  font-size: 16px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px 14px;
+  background: rgb(198, 228, 214);
+  border: 1px solid rgb(14, 14, 14);
+}
+
+/*==============recent news section=========================*/
+.recent-news {
+  margin: 80px auto;
+}
+.recent-news-card {
+  margin-top: 32px;
+}
+
+.recent-news-card {
+  gap: 32px;
+  display: flex;
+  padding: 48px;
+  margin: 12px auto;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(255, 255, 255);
+}
+.recent-news-card img {
+  border-radius: 24px;
+}
+.recent-news-card-text-p {
+  margin-bottom: 32px;
+}
+.recent-news-card-text-date {
+  margin: 12px 0;
 }
