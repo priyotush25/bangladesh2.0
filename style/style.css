@@ -171,3 +171,24 @@ p {
 .v-card-btn-three {
   background: rgb(255, 194, 57);
 }
+
+.quote-section {
+  margin-top: 32px;
+  padding: 48px 24px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.quote {
+  margin-top: -25px;
+  position: absolute;
+}
+.quote-para {
+  position: relative;
+  z-index: 1;
+}
+.quote-chief-title {
+  margin-top: 4px;
+  color: rgba(14, 14, 14, 0.6);
+}
